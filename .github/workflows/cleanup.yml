@@ -18,3 +18,4 @@ jobs:
           werf cleanup
         env:
           WERF_KUBECONFIG_BASE64: ${{ secrets.KUBECONFIG_BASE64 }}
+          WERF_REPO_GITHUB_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
